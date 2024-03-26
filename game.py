@@ -171,7 +171,9 @@ def draw():
 
     # vide la fenetre
     pyxel.cls(0)
+    
 
+    
     # tirs
     for tir in tirs_liste: # je boucle sur ma liste de tirs
         pyxel.rect(tir[0], tir[1], 1, 4, 10) #je dessine un rectangle
